@@ -1,4 +1,4 @@
-class LogEntriesController < ApplicationController
+class LogEntriesController < ApiController
   before_action :set_log_entry, only: [:show, :update, :destroy]
 
   # GET /log_entries
