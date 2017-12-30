@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  datetime: 2017-12-30 09:45:21
+  category: MyString
+  content: MyText
+
+two:
+  datetime: 2017-12-30 09:45:21
+  category: MyString
+  content: MyText
