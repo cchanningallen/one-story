@@ -1,24 +1,22 @@
-# README
+## Reference
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Initially built off [Charlie Gleeson's fantastic "A Top Shelf Web Stack—Rails 5 API + ActiveAdmin + Create React App" article](https://medium.com/superhighfives/a-top-shelf-web-stack-rails-5-api-activeadmin-create-react-app-de5481b7ec0b)
 
-Things you may want to cover:
+Credit: https://medium.com/@superhighfives
 
-* Ruby version
+## Quickstart
 
-* System dependencies
+1. `bundle`
+1. `be rake db:create db:migrate db:seed`
+1. `cd client; yarn install`
+1. `cd ..; foreman start -f Procfile.dev`
 
-* Configuration
+After initial install
 
-* Database creation
+`foreman start -f Procfile.dev`
 
-* Database initialization
+## Deployment
 
-* How to run the test suite
+`git push heroku master`
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+https://guarded-thicket-27288.herokuapp.com
